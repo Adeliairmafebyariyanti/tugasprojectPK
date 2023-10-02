@@ -45,32 +45,29 @@ li {
     border-bottom: 2px solid #708090;
   }
 .footer {
-  /* Gantikan background-color ke #2f5167 */
-  background-color: #2f5167;
   
-  /* Gantikan color ke #fff */
-  color: #fff;
+  background-color: #A52A2A;
   
-  /* Gantikan height ke 120px */
+  color: #FFFFFF;
+ 
   height: 120px;
   
-  /* Gantikan padding untuk semua sisi ke 40px */
+  
   padding: 40px;
   
 }
 
-/* Gantikan font-size dan property float footer-logo */
 .footer-logo {
   font-size: 32px;
   float: left;
 }
 
-/* Gantikan float property footer-list */
+
 .footer-list {
   float: right;
 }
 
-/* Tambahkan CSS untuk tag <li> kedalam footer-list */
+
 .footer-list li {
   padding-bottom: 20px;
 }
