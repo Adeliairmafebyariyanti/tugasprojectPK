@@ -39,7 +39,11 @@ li {
 .copy-container span {
   color: #ff4a4a;
 }
-
+.contents{
+  height:500px;
+  .section-title{
+    border-bottom: 2px solid #708090;
+  }
 .footer {
   background-color: #778899;
   color: #ddd;
