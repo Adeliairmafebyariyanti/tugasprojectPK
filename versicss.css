@@ -1,133 +1,47 @@
-h1{
- color:red;
-}
-h1{
-background-color:dddddd;
-}
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('background.jpg'); /* Ganti 'background.jpg' dengan nama file gambar background pemandangan */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: #fff;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 header {
-    background-color: #3498db;
-    color: #fff;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  text-align: center;
+  padding: 20px 0;
 }
 
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+h1 {
+  font-size: 36px;
 }
 
-nav li {
-    display: inline;
-    margin-left: 20px;
+.content {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
 }
 
-nav li a {
-    color: #fff;
-    text-decoration: none;
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
 }
 
-.hero {
-    background-image: url('hero.jpg');
-    background-size: cover;
-    background-position: center;
-    color: #fff;
-    padding: 100px 0;
-    text-align: center;
+ul {
+  list-style: none;
+  padding: 0;
 }
 
-.hero h2 {
-    font-size: 36px;
-}
-
-.cta-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #e74c3c;
-    color: #fff;
-    text-decoration: none;
-    margin-top: 20px;
-    font-weight: bold;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-.cta-button:hover {
-    background-color: #c0392b;
-}
-
-.program {
-    padding: 20px;
-    text-align: center;
-}
-
-.program h2 {
-    color: #3498db;
-}
-
-.program-item {
-    border: 1px solid #ccc;
-    padding: 20px;
-    margin: 10px;
-    width: 300px;
-    text-align: center;
-}
-
-.program-item img {
-    max-width: 100%;
-}
-
-.program-item h3 {
-    margin-top: 10px;
-}
-
-.program-item p {
-    margin-top: 10px;
-}
-
-.program-item a {
-    display: inline-block;
-    padding: 5px 10px;
-    background-color: #e74c3c;
-    color: #fff;
-    text-decoration: none;
-    margin-top: 10px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-.program-item a:hover {
-    background-color: #c0392b;
-}
-
-.contact {
-    background-color: #f2f2f2;
-    padding: 20px;
-    text-align: center;
-}
-
-.contact h2 {
-    color: #3498db;
-}
-
-.contact a {
-    color: #e74c3c;
-}
-
-footer {
-    background-color: #dddddd;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+ul li {
+  font-size: 18px;
+  margin-bottom: 10px;
 }
